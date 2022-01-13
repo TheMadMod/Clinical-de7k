@@ -1,0 +1,51 @@
+.mapBox{
+    height:230px;
+    width: 600px;
+}
+
+#map {
+    height: 200px !important;
+    width: 650px !important;
+}
+
+#addSearch {
+    width: 100%;
+    display: flex;
+}
+
+#searchBox {
+    width: 615px;
+    height: 35px;
+    background-color: #ffffff;
+    border:2px solid #000000;
+    padding: 0.5em;
+    color: #757575;
+}
+
+.fa-search{
+    /* margin-left: 15px; */
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.seachIcon {
+    padding: 4px 10px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #757575;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #757575;
+  }
+  
+  ::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #757575;
+  }
